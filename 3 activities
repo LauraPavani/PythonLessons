@@ -1,0 +1,29 @@
+First: Make a Python script that read the name of a person and show us the welcome message with the person's name:
+>>> name= input("What's your name? ")
+>>> print('Hello, ',name,'! Welcome to Python classes')
+What's your name? Laura
+Hello,  Laura ! Welcome to Python classes
+>>> 
+
+Second: Make a Python script that read the day, month and year of a persnon's birth and show us the message with formatted date.
+>>> name= input("What's your name? ")
+>>> day= input("What day you were born? ")
+>>> month= input('What month you were born? ')
+>>> year= input ('What year you were born? ')
+>>> print('Hello, ', name,'! You have born on ', day,'/', month,'/', year, 'that is right? ')
+What's your name? Laura
+What day you were born? 25
+What month you were born? 12
+What year you were born? 1981
+Hello,  Laura ! You have born on  25 / 12 / 1981 that is right? 
+>>> 
+
+Third: Make a Python script that read two numbers and try to show us the sum of them.
+>>> n1= int(input('Insert the first number: '))
+>>> n2= int(input('Insert the second number: '))
+>>> s= n1+n2
+>>> print('The sum between {} and {} is {}!'.format(n1, n2, s))
+Insert the first number: 3
+Insert the second number: 4
+The sum between 3 and 4 is 7!
+>>>
