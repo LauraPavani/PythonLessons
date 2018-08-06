@@ -1,0 +1,8 @@
+i= input('Insert something: ')
+print(type(i))
+print('Is it a number? {}'.format(i.isnumeric()))
+print('Is it alphanumeric? {}'.format(i.isalnum()))
+print('Is it decimal? {}'.format(i.isdecimal()))
+print('Is it a title? {}'.format(i.istitle()))
+print('Is it space? {}'.format(i.isspace()))
+print('Is it alphabetic? {}'.format(i.isalpha()))
