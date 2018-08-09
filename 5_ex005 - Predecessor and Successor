@@ -1,0 +1,10 @@
+n= int(input('Insert a number: '))
+s= n + 1
+a= n - 1
+print('The successor of {} is {}'.format(n, s))
+print('The predecessor of {} is {}'.format(n, a))
+
+or (with just one variable)
+
+n= int(input('Insert a number: '))
+print('The predecessor of {} is {} and the successor is {}'.format(n, n-1, n+1))
