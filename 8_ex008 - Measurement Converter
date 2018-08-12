@@ -1,0 +1,8 @@
+mt = float(input('Insert the value in meters: '))
+k = mt / 1000
+hm = mt / 100
+dam = mt / 10
+d = mt * 10
+cm = mt * 100
+mm = mt * 1000
+print('The measure of {}mt is corresponding to: \n{}Km \n{}hm \n{}dam \n{:.0f}dm \n{:.0f}cm \n{:.0f}mm'.format(mt, k, hm, dam, d, cm, mm))
