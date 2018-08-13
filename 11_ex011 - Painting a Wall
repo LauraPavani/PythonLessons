@@ -1,0 +1,7 @@
+print('Insert the width and the height of the wall that you want to paint to calculate how many ink you need to buy. Remember: with 1 paint can you paint 2m²')
+l = float(input('Insert the width: '))
+a = float(input('Insert the height: '))
+w = l * a / (2 * 1/2)
+lt = w / 2
+print('The wall has {} x {} and the total area is {}m²'.format(l, a, w))
+print("To paint this wall you'll need to buy {} liters of ink".format(lt))
