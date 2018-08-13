@@ -1,3 +1,10 @@
-d = float(input('How much do you want to exchange for american dollar? Au$'))
+d = float(input('How many Australian Dolars do you want to exchange? Au$ '))
 us = d / 1.37
-print('With Au${} you can exchange to US${:.2f}'.format(d, us))
+eur = d / 1.56
+r = d / 0.35
+btc = d / 796.62
+print('With AUD$ {} you can exchange to:'.format(d))
+print('American Dolar  US$  {:.2f}'.format(us))
+print('Euro            EUR$ {:.2f}'.format(eur))
+print('Brazilian Reais R$   {:.2f}'.format(d, r))
+print('Bitcoins Cash   BTC$ {:.2f}'.format(d, btc))
