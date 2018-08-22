@@ -1,0 +1,4 @@
+d = int(input('How many days have you rented the car? '))
+kp = float(input('Insert how far the distance the car has traveled '))
+t = (d * 60) + (kp * 0.15)
+print('The total amount to pay for {} days of rental car including {:.2f}KM traveled is AUD${:.2f}.'.format(d, kp, t))
