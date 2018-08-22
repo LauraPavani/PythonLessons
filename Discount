@@ -1,0 +1,3 @@
+prod = float(input('Insert the price of a product: AUD$ '))
+des = prod - (prod * 5 / 100)
+print('To the value of AUD${:.2f} applying 5% of discount you need to pay just AUD${:.2f}'.format(prod, des))
