@@ -1,0 +1,3 @@
+sal = float(input('Insert the salary of a employee: AUD$ '))
+aum = sal + (sal * 15 / 100)
+print('The new salary of this employee with 15% of increase is AUD$ {:.2f}'.format(aum))
