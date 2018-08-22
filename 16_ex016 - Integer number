@@ -1,3 +1,8 @@
-import math
+from math import trunc
 n = float(input('Insert a number to know what is its the rational number: '))
-print('For the given number {} the integer number is {}.'.format(n, math.trunc(n)))
+print('For the given number {} the integer number is {}.'.format(n, trunc(n)))
+
+Or we can make a code without import some library:
+
+n = float(input('Insert a number to know what is its the rational number: '))
+print('For the given number {} the integer number is {}.'.format(n, int(n)))
