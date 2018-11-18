@@ -1,0 +1,6 @@
+from math import hypot
+
+op = float(input('What is the length of opposite leg?: '))
+ad = float(input('What is the length of adjacent leg?: '))
+
+print("The hypotenuse is {:.2f}.".format(hypot(op, ad)))
