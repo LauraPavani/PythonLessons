@@ -1,0 +1,14 @@
+''' A teacher want to raffle one of his fourth student to read a text. Create a program that help him to get one name.'''
+
+from random import choice
+
+n = str(input('Insert the first name: '))
+n2 = str(input('Insert the second name: '))
+n3 = str(input('Insert the third name: '))
+n4 = str(input('Insert the forth name: '))
+
+lista = [n, n2, n3, n4]
+
+es = choice(lista)
+
+print('The selected name was {}'.format(es))
