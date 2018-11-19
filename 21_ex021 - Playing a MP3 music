@@ -1,0 +1,4 @@
+''' Create a program that play an audio of a mp3 directory.'''
+
+import playsound
+playsound.playsound('sound_name.mp3')
