@@ -1,0 +1,13 @@
+Create a program that read any number from 0 to 9999 and shows the numbers separately. Unity, ten, hundred and thousand number.
+
+num = int(input('Insert any number: '))
+u = num // 1 % 10
+d = num // 10 % 10
+c = num // 100 % 10
+m = num // 1000 % 10
+
+print('Analysing the number {}'.format(num))
+print('The unity is: {}'.format(u))
+print('The dozen is: {}'.format(d))
+print('The hundred is: {}'.format(c))
+print('The thousand is: {}'.format(m))
