@@ -1,0 +1,14 @@
+''' A teacher wants to organize an order of presentation of assessments of their four students.'''
+
+from random import shuffle
+
+n1 = str(input('First option: '))
+n2 = str(input('Second option: '))
+n3 = str(input('Third option: '))
+n4 = str(input('Fourth option: '))
+
+op = [n1, n2, n3, n4]
+
+shuffle(op)
+
+print('The order to speech is {}'.format(op))
