@@ -1,0 +1,13 @@
+''' Create a program that read a person full name and shows: 1) The name in capital letter; 2) The name in small letters; 3) How many letters has in the full name; 4) How many letters has in the first name.'''
+
+n = str(input('Insert your full name: ')).strip()
+
+print('Analysing your name... ')
+print('Your name in capital letters is: {}.'.format(n.upper()))
+print('Your name in small letters is: {}.'.format(n.lower()))
+print('Your full name has {} names and {} letters.'.format(len(n.split()), len(n)-n.count(' ')))
+print('Your first name has {} letters.'.format(n.find(' ')))
+
+sep = n.split()
+
+print('Your first name is {} and it has {} letters.'.format(sep[0], len(sep[0])))
