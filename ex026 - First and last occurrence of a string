@@ -1,0 +1,5 @@
+fra = str(input('What do you want to say for me? ').strip())
+cp = fra.upper()
+print('There is {} letters A in this sentence.'.format(cp.count('A')))
+print('In this sentence we can see the letter A for the first time in the position {}'.format(cp.find('A')+1))
+print('The last time that we can see the letter A in this sentence is on the position {}'.format(cp.rfind('A')+1))
