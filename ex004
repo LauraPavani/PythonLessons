@@ -1,5 +1,6 @@
 i= input('Insert something: ')
-pprint('The primitive type is: ', type(i))rint(type(i))
+print('The primitive type is: ', type(i))
+Print(type(i))
 print('Is it a number? {}'.format(i.isnumeric()))
 print('Is it alphanumeric? {}'.format(i.isalnum()))
 print('Is it capitalized? {}'.format(i.istitle()))
