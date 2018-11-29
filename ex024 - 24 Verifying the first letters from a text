@@ -1,0 +1,4 @@
+c = str(input("What's the city name: ")).strip()
+cap = c.upper()
+print('This city has Saint in the name? ')
+print(cap[:5] == "SAINT")
