@@ -1,0 +1,9 @@
+# Create a code that can read an integer number and shows if it is odd or even
+
+n = int(input('Insert a number to see if it is odd or even: '))
+print(31*'\033[32m==*\033[m')
+if  n % 2 == 0:
+    print('\033[1;34mThe number {} is an even number!\033[m'.format(n))
+else:
+    print('\033[1;31mThe number {} is an odd number!\033[m'.format(n))
+print(31*'\033[32m==*\033[m')
