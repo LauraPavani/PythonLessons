@@ -1,0 +1,11 @@
+# Create a code that as the distance of the trip in Km. Calculate the ticket's price according the table bellow:
+# Au$0.50 under 200km travelled or
+# Au$0.45 above 200km travelled.
+
+d = float(input('Insert the travelled distance in KM: '))
+if d <= 200:
+    p1 = d * 0.50
+    print('The amount to be payed for the travel is \033[34mAu${:.2f}\033[m'.format(p1))
+else:
+    p2 = d * 0.45
+    print('The amount to be payed for the travel is \033[34mAu${:.2f}\033[m'.format(p2))
