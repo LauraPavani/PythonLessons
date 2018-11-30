@@ -1,0 +1,26 @@
+# Create a code that read three numbers and shows which one is the biggest one and which one is the smallest one.
+
+print(30 * '\033[31m==*\033[m')
+print('\033[1;32mWhich number is bigger and which one is smaller?\nInsert three numbers to compare between them')
+print(30 * '\033[31m==*\033[m')
+
+n1 = int(input('Insert the first number: '))
+n2 = int(input('Insert the second number: '))
+n3 = int(input('Insert the third number: '))
+color = {'clean': '\033[m',
+         'blue': '\033[34m',
+         'green': '\033[32m'}
+# Verifying the smallest number:
+smallest = n1
+if n2 < n1 and n2 < n3:
+    smallest = n2
+if n3 < n1 and n3 < n2:
+    smallest = n3
+# Verifying the biggest number:
+biggest = n1
+if n2 > n1 and n2 > n3:
+    biggest = n2
+if n3 > n1 and n3 > n2:
+    biggest = n3
+print('The {}biggest{} number is {}{}{} and the {}smallest{} is {}{}{}'.format(color['blue'], color['clean'], color['blue'], bigger, color['clean'],
+                                                                             color['green'], color['clean'], color['green'], smaller, color['clean']))
