@@ -1,0 +1,14 @@
+# Create a code that read an year and shows if it is or not a lead year.
+
+from datetime import date
+print(31*'\033[32m==*\033[m')
+print('\033[31mTo analise if the actual year is a leap year insert "0"\033[m')
+print(31*'\033[32m==*\033[m')
+
+a = int(input('Insert one year to know if it is a leap year: '))
+if a == 0:
+    a = date.today().year
+if a % 4 == 0 and a % 100 != 0 or a % 400 == 0:
+    print('The year of \033[34m{} is a lead year\033[m!'.format(a))
+else:
+    print('The year of \033[31m{} is not a leap year\033[m!'.format(a))
