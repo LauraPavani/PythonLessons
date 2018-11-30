@@ -1,0 +1,17 @@
+# Write a code that makes the computer think in an integer number between 0 and 5 to play with the user that will guess 
+# which number the computer thought. 
+
+from random import randint
+from time import sleep
+print(20*'\033[31m==*\033[m')
+print('\033[1;34mI am thinking in a number...\033[m ')
+print(20*'\033[31m==*\033[m')
+print('Guess which numeber between 0 to 5 I have thought?')
+num = randint(0, 5)
+n = int(input('I think could be the number: '))
+print('PROCESSANDO...')
+sleep(5)
+if n == num:
+    print('\033[1;32mYES! You win!\033[m')
+else:
+    print('\033[1;31mTry again looser!!\033[m')
