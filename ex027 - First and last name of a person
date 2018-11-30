@@ -1,0 +1,6 @@
+# Create a program that can read the person name and shows the first and last name separately.
+
+n = str(input("What's your full name? ")).strip()
+name = n.split()
+print('Nice to meet you {}!'.format(nome[0]))
+print("I can't believe that your family's name is {}. I've already met someone with the same given name. :D ".format(name[len(name)-1]))
