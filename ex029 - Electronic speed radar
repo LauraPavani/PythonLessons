@@ -1,0 +1,9 @@
+# Write a code that read a car speed and calculate the fine in case the speed is above 80Km/h. The fine shall be Au$7.00 per Km above 
+# the speed limit.
+
+vlc = float(input('Insert the speed of the car: '))
+if vlc > 80:
+    mul = (vlc - 80) * 7
+    print('\033[31mYou will receive a fee for driving unsafely!\n'
+          'The amount to be payed is \033[7;31;40mAu${:.2f}.\033[m'.format(mul))
+print('\033[32mBe smart! Drive safely!\033[m')
